@@ -4,6 +4,7 @@ body {
   background-color: #780305;
 }
 
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -109,6 +110,7 @@ body {
   padding: 10px 15px;
   color: #ffffff;
   font-family: nasalization, sans-serif;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -146,7 +148,7 @@ a:focus {
 }
 
 .navbar-brand {
-  margin-right: 5%;
+  margin-right: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
