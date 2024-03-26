@@ -109,7 +109,7 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   padding: 10px 15px;
   color: #ffffff;
-  font-family: nasalization, sans-serif;
+  font-family: debbie, sans-serif;
   font-weight: bolder;
   text-align: center;
 }
@@ -164,7 +164,7 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-family: nasalization, sans-serif;
+  font-family: debbie, sans-serif;
   font-style: normal;
   font-weight: bold;  
   color: #ffffff;
