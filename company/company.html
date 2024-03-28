@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Gender', 'Amount of people'],
+          ['Male',     3],
+          ['Female',      0]
+        ]);
+        var data1 = google.visualization.arrayToDataTable([
+          ['Race', 'Amount of people'],
+          ['Asian',      3],
+          ['White',     0],
+          ['Hispanic',  0],
+          ['Other/Mixed', 0]
+        ]);
+        var data2 = google.visualization.arrayToDataTable([
+          ['Languages spoken excluding English', 'Amount of people'],
+          ['Spanish',     3],
+          ['Vietnamese', 0],
+          ['Chinese',  0],
+          ['Malayalam', 1],
+          ['Bengali',      0],
+          ['Gujarati', 0],
+          ['Tagalog', 0],
+          ['Tamil', 1],
+          ['Urdu', 0],
+          ['Black', 1]
+        ]);
+        var data3 = google.visualization.arrayToDataTable([
+          ["influence", "Amount"],
+          ["Yes", 2],
+          ["Probably...", 1],
+        ]);
+        var data4 = google.visualization.arrayToDataTable([
+          ["Jungle of Origin", "Amount"],
+          ["India", 2],
+          ["Sri Lanka", 1]
+        ]);
+        var data5 = google.visualization.arrayToDataTable([
+          ["Goated Saenz", "Amount"],
+          ["Yes", 2],
+          ["Depends on our grade...", 1]
+        ]);
+        var options = {
+          legend: 'none',
+          backgroundColor: "transparent",
+          colors: ['#FF0000','#FF1C1C','#FF3838','#FF5454','#FF7070', '#FF8C8C', '#FFA8A8', "#FFC4C4", "#FFE0E0"],
+          pieSliceBorderColor	: 'black',
+          pieSliceText: 'label'
+          
+        };
+        var options2 = {
+        colors:['FF0000', '#FF5454'],
+        legend: 'none',
+          backgroundColor: "transparent",
+          pieSliceBorderColor	: 'black',
+          pieSliceText: 'label'
+      };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        var chart1 = new google.visualization.PieChart(document.getElementById('piechart2'));
+        var chart2 = new google.visualization.PieChart(document.getElementById('piechart3'));
+        var chart3 = new google.visualization.PieChart(document.getElementById("piechart4"));
+        var chart4 = new google.visualization.PieChart(document.getElementById("piechart5"));
+        var chart5 = new google.visualization.PieChart(document.getElementById("piechart6"));
+        
+
+        chart.draw(data, options2);
+        chart1.draw(data1, options);
+        chart2.draw(data2, options);
+        chart3.draw(data3, options);
+        chart4.draw(data4, options);
+        chart5.draw(data5, options);
+        
+      }
+    </script>
+  
+  
+
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>monkeyworks</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="pics/logo.png" alt="" />
+            <span>
+              monkeyworks
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../company/company.html"> Company</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="../robot-page/robot-page.html"> Robot </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="../game-page/game-page.html">Game </a>
+              </li> -->
+            </ul>
+            <div class="user_option">
+             
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+             
+              </form>
+            </div>
+          </div>
+          <div>
+            <div class="custom_menu-btn ">
+              <button>
+                <span class=" s-1">
+
+                </span>
+                <span class="s-2">
+
+                </span>
+                <span class="s-3">
+
+                </span>
+              </button>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- category section -->
+
+  <section class="category_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Company Statistics
+        </h2>
+      </div>
+      <div class="category_container">
+        <div class="box">
+          <div class="img-box">
+            <div id="piechart" style="width: 900px; height: 500px;"></div>
+            
+          </div>
+          <div class="detail-box">
+            <h5>
+              Gender
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <div id="piechart2" style="width: 900px; height: 500px;"></div>
+          </div>
+          <div class="detail-box">
+            <h5>
+              Race
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <div id="piechart3" style="width: 900px; height: 500px;"></div>
+            
+          </div>
+          <div class="detail-box">
+            <h5>
+              Language spoken(ex. English)
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <div id="piechart4" style="width: 900px; height: 500px;"></div>
+          </div>
+          <div class="detail-box">
+            <h5>
+              Pursuing higher education?
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <div id="piechart5" style="width: 900px; height: 500px;"></div>
+          </div>
+          <div class="detail-box">
+            <h5>
+              Jungle of Origin
+            </h5>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <div id="piechart6" style="width: 900px; height: 500px;"></div>
+          </div>
+          <div class="detail-box">
+            <h5>
+              Is Mr. Saenz a Goated Teacher? 
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end category section -->
+  <!-- start histyory sec -->
+  <section class="category_section layout_padding history">
+    <div class="container">
+      <div class="heading_container history">
+        <h2>
+          History
+        </h2>
+      </div>
+      <div class="category_container">
+        
+      </div>
+      <div class = "history-content">
+    <p>
+      We're just goons.
+    </p>
+    </div>
+      <img src="images/team.png" width="50%">
+      <div class = "caption">
+        <p style="font-size: 20px;">(Rivi, Jath and Jonathan sitting on a sideways bench)</p>
+      </div>
+      
+  </section>
+
+      
+  
+  </section>
+  <section class="category_section layout_padding test">
+    <div class="container">
+      <div class="heading_container test">
+        <h2>
+          Bios
+        </h2>
+      </div>
+      <div id="containerr">
+        <div id="left">
+          <h3>Rivi</h3>
+          <p>Professional Hater<br>
+            Machinist<br>
+            Fish Want Him...
+            </p>
+          <img src="images\Rivi.png">
+          <hr style="color: white; width: 75%;">
+        </div>
+        <div id="middle">
+          <h3>Jonathan</h3>
+          <p>D1 slacker<br>
+            PHD in Jath hating</p>
+          <img src="images\Jonathan.png">
+          <hr style="color: white; width: 75%;">
+        </div>
+        <div id="right">
+          <h3>Jath</h3>
+          <p>Software Goblin<br>
+            Glutton in Training<br>
+            PHD in Slacking Off</p>
+          <img src="images\Jath.png">
+          <hr style="color: white; width: 75%;">
+        </div>
+      </div>
+    </div>  
+     
+     
+      
+  
+  </section>
+  <!--end of section-->
+
+  <section class="info_section ">
+    <div class="info_container layout_padding-top">
+      <div class="container">
+        <div class="info_top">
+          <div class="info_logo">
+            <img src="images/jigsaw-logo.png" alt="" style="margin-right:2.5%;width:10%;height:10%" />
+            <span>
+              Jigsaw Surgical Solutions
+            </span>
+          </div>
+          <div class="social_box">
+
+            
+            
+            <a href="https://instagram.com/jigsaw_robotics?">
+              <img src="images/instagram.png" alt="">
+            </a>
+            <a href="#">
+              <img src="images/youtube.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-9 col-md-10 mx-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <footer class="container-fluid footer_section ">
+    <div class="container">
+      <p>
+        &copy; <span id="displayDate"></span> All Rights Reserved By
+        <a href="https://www.bestrobotics.org/site/">Jigsaw Surgical Solutions</a>
+      </p>
+    </div>
+  </footer>
+  <!-- end  footer section -->
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script>
+
+</body>
+</body>
+
+</html>
