@@ -939,7 +939,7 @@ a:focus {
   font-size: 1px;
   width: 33%;
   background-color: #d40000;
-  border-bottom: 3px solid #4588ba; margin-bottom:10px;
+  
 }
 .middle{
   display: inline-block;
@@ -949,7 +949,7 @@ a:focus {
   font-size: 1px;
   width: 33%;
   background-color: red;
-  border-bottom: 3px solid #4588ba; margin-bottom:10px;
+  
 }
 .right{
   display: inline-block;
@@ -959,6 +959,6 @@ a:focus {
   font-size: 1px;
   width: 33%;
   background-color: blue;
-
-  border-bottom: 3px solid #4588ba; margin-bottom:10px;
+  
+  
 }
