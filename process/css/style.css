@@ -980,3 +980,20 @@ a:focus {
   z-index: 2;
   
 }
+
+.leftDiv {
+  width: 50%; 
+  height: 200px; 
+  float: left; 
+  border-radius: 25px;
+  /* padding-bottom: 50px; */
+  /* background: green;  */
+}
+
+.rightDiv {
+  margin-left: 50%; 
+  height: 200px; 
+  border-radius: 25px;
+  /* padding-bottom: 50px; */
+  /* background: blue;  */
+}
