@@ -662,3 +662,30 @@ color: #ffffff;
           transform: rotate(-45deg) translate(8px, -8px);
 }
 /*# sourceMappingURL=style.css.map */
+
+
+
+.leftDiv {
+  width: 30%; 
+  height: 200px; 
+  float: left; 
+  border-radius: 25px;
+  /* padding-bottom: 50px; */
+  /* background: green;  */
+}
+
+.centerDiv {
+  width: 40%; 
+  height: 200px; 
+  float: left; 
+  border-radius: 25px;
+  /* padding-bottom: 50px; */
+  /* background: green;  */
+}
+.rightDiv {
+  margin-left: 3dvb; 
+  height: 200px; 
+  border-radius: 25px;
+  /* padding-bottom: 50px; */
+  /* background: blue;  */
+}
