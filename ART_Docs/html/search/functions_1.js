@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['get_0',['get',['../classart_1_1_simple_motor.html#aa3d8f01a6a434cdb8d6559dfe7b8d642',1,'art::SimpleMotor::get()'],['../classart_1_1_simple_motor_group.html#ae7e407ee8ae8e4c8456606cc1fcedf47',1,'art::SimpleMotorGroup::get()']]],
-  ['getspeedmode_1',['getSpeedMode',['../classart_1_1_simple_motor.html#a6b1203c25f9812792a5e0dd0c805f4d9',1,'art::SimpleMotor::getSpeedMode()'],['../classart_1_1_simple_motor_group.html#acb1c47b3b1b8c255656c415128d89533',1,'art::SimpleMotorGroup::getSpeedMode()']]]
+  ['calculate_0',['calculate',['../classart_1_1_p_i_d.html#a6a918bed343b8650e62c6da061b2ae04',1,'art::PID::calculate(double error)'],['../classart_1_1_p_i_d.html#a18add007568ec07e225636168a663e48',1,'art::PID::calculate(double target, double feedback)']]],
+  ['centimeters_1',['Centimeters',['../namespaceart.html#a49a88b5c3aeda2e140d7e82179f5c864',1,'art']]],
+  ['centimeters_2',['centimeters',['../classart_1_1_length.html#a4073fb3d8bb22ccd16c117f3658d8fe0',1,'art::Length']]],
+  ['constrain_3',['constrain',['../classart_1_1_angle.html#ace8d0ebeae58b407fca15f951816e578',1,'art::Angle']]]
 ];

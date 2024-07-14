@@ -226,8 +226,9 @@ Because a refrence to the object is returned, that refrence can be used to call 
 
 {\bfseries{Chained}} {\bfseries{Methods}} {\bfseries{Example\+:}} 
 
-Keep in mind, methods that don\textquotesingle{}t return a refrence to a \doxylink{classart_1_1_simple_motor}{Simple\+Motor} Object can\textquotesingle{}t be used to create a new Object. Even though you could chain .\doxylink{classart_1_1_simple_motor_a43b6e632840fe51239ac8b99bb889ca3}{set(double cmd)} onto the end, it doesn\textquotesingle{}t return an object refrence, so it couldn\textquotesingle{}t be used to construct test\+Motor.
-
+\begin{DoxyWarning}{Warning}
+Methods that don\textquotesingle{}t return a refrence to a \doxylink{classart_1_1_simple_motor}{Simple\+Motor} Object can\textquotesingle{}t be used to create a new Object. Even though you could chain .\doxylink{classart_1_1_simple_motor_a43b6e632840fe51239ac8b99bb889ca3}{set(double cmd)} onto the end, it doesn\textquotesingle{}t return an object refrence, so it couldn\textquotesingle{}t be used to construct test\+Motor.
+\end{DoxyWarning}
 
 \begin{DoxyCode}{0}
 \DoxyCodeLine{\mbox{\hyperlink{classart_1_1_simple_motor_a05e0706379323edec6b414bc3d958995}{SimpleMotor}}\ testMotor\ =\ \mbox{\hyperlink{classart_1_1_simple_motor_a05e0706379323edec6b414bc3d958995}{SimpleMotor}}(\ vex::motor(vex::PORT10\ )\ ).withSpeedMode(\ \textcolor{keyword}{true}\ );}

@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['get_0',['get',['../classart_1_1_simple_motor.html#aa3d8f01a6a434cdb8d6559dfe7b8d642',1,'art::SimpleMotor::get()'],['../classart_1_1_simple_motor_group.html#ae7e407ee8ae8e4c8456606cc1fcedf47',1,'art::SimpleMotorGroup::get()']]],
-  ['getspeedmode_1',['getSpeedMode',['../classart_1_1_simple_motor.html#a6b1203c25f9812792a5e0dd0c805f4d9',1,'art::SimpleMotor::getSpeedMode()'],['../classart_1_1_simple_motor_group.html#acb1c47b3b1b8c255656c415128d89533',1,'art::SimpleMotorGroup::getSpeedMode()']]]
+  ['degrees_0',['Degrees',['../classart_1_1_angle.html#abf56d054ea026c270ce0a3f7ceb597f7',1,'art::Angle::Degrees'],['../namespaceart.html#a42c86b89b6e3692e41667425d3342447',1,'art::Degrees()']]],
+  ['degrees_1',['degrees',['../classart_1_1_angle.html#ae7d09256f1000560d084398127ff8126',1,'art::Angle']]],
+  ['dirandmag_2',['dirAndMag',['../structart_1_1_vec2.html#aa72e123b760adf9471274139dcd63ffe',1,'art::Vec2']]],
+  ['direction_3',['direction',['../structart_1_1_vec2.html#a4cbf76532f3b4439d015dea70a9e856a',1,'art::Vec2']]],
+  ['distto_4',['distTo',['../structart_1_1_vec2.html#a948ba58ca674953b99cdcda9cb2eea28',1,'art::Vec2']]]
 ];
