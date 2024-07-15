@@ -4,7 +4,7 @@
 \begin{DoxyCompactItemize}
 \item 
 class \mbox{\hyperlink{classart_1_1_angle}{Angle}}
-\item 
+\begin{DoxyCompactList}\small\item\em A Utility Unit class for Angles. \end{DoxyCompactList}\item 
 class \mbox{\hyperlink{classart_1_1_length}{Length}}
 \begin{DoxyCompactList}\small\item\em A Utility Unit class for \doxylink{classart_1_1_length}{Length}. \end{DoxyCompactList}\item 
 class \mbox{\hyperlink{classart_1_1_p_i_d}{PID}}
@@ -38,11 +38,11 @@ typedef std\+::chrono\+::time\+\_\+point$<$ std\+::chrono\+::high\+\_\+resolutio
 \mbox{\hyperlink{classart_1_1_length}{Length}} \mbox{\hyperlink{namespaceart_a78106cc452c1323606b6fdc01692e578}{Tiles}} (double tiles)
 \begin{DoxyCompactList}\small\item\em Constructs a \doxylink{classart_1_1_length}{Length} from Tiles. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classart_1_1_angle}{Angle}} \mbox{\hyperlink{namespaceart_a42c86b89b6e3692e41667425d3342447}{Degrees}} (double degrees)
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs an \doxylink{classart_1_1_angle}{Angle} from Degrees. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classart_1_1_angle}{Angle}} \mbox{\hyperlink{namespaceart_aa425ee0581ad54a4d69bb1fde51c1fa7}{Radians}} (double radians)
-\item 
+\begin{DoxyCompactList}\small\item\em Constructs an \doxylink{classart_1_1_angle}{Angle} from Radians. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classart_1_1_angle}{Angle}} \mbox{\hyperlink{namespaceart_afa7e25fc40b617fb77028ca9ce81b0da}{Revolutions}} (double revolutions)
-\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Constructs an \doxylink{classart_1_1_angle}{Angle} from Revolutions. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Typedef Documentation}
@@ -75,7 +75,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Centimeters.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Centimeters \\
+{\em centimeters} & the length in Centimeters \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -93,6 +93,18 @@ Definition at line \mbox{\hyperlink{_units_8cpp_source_l00099}{99}} of file \mbo
 
 
 
+Constructs an \doxylink{classart_1_1_angle}{Angle} from Degrees. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em degrees} & the angle in Degrees \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classart_1_1_angle}{Angle} -\/ the constructed \doxylink{classart_1_1_angle}{Angle} 
+\end{DoxyReturn}
+
+
 Definition at line \mbox{\hyperlink{_units_8cpp_source_l00120}{120}} of file \mbox{\hyperlink{_units_8cpp_source}{Units.\+cpp}}.
 
 \Hypertarget{namespaceart_ad013f32988d5d66dad5a975183e61180}\index{art@{art}!Feet@{Feet}}
@@ -107,7 +119,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Feet.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Feet \\
+{\em feet} & the length in Feet \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -129,7 +141,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Inches.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Inches \\
+{\em inches} & the length in Inches \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -151,7 +163,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Meters.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Meters \\
+{\em meters} & the length in Meters \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -173,7 +185,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Millimeters.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Millimeters \\
+{\em millimeters} & the length in Millimeters \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -213,6 +225,18 @@ Definition at line \mbox{\hyperlink{_units_8cpp_source_l00071}{71}} of file \mbo
 
 
 
+Constructs an \doxylink{classart_1_1_angle}{Angle} from Radians. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em radians} & the angle in Radians \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classart_1_1_angle}{Angle} -\/ the constructed \doxylink{classart_1_1_angle}{Angle} 
+\end{DoxyReturn}
+
+
 Definition at line \mbox{\hyperlink{_units_8cpp_source_l00127}{127}} of file \mbox{\hyperlink{_units_8cpp_source}{Units.\+cpp}}.
 
 \Hypertarget{namespaceart_afa7e25fc40b617fb77028ca9ce81b0da}\index{art@{art}!Revolutions@{Revolutions}}
@@ -221,6 +245,18 @@ Definition at line \mbox{\hyperlink{_units_8cpp_source_l00127}{127}} of file \mb
 {\footnotesize\ttfamily \label{namespaceart_afa7e25fc40b617fb77028ca9ce81b0da} 
 \mbox{\hyperlink{classart_1_1_angle}{Angle}} art\+::\+Revolutions (\begin{DoxyParamCaption}\item[{double}]{revolutions}{}\end{DoxyParamCaption})}
 
+
+
+Constructs an \doxylink{classart_1_1_angle}{Angle} from Revolutions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em revolutions} & the angle in Revolutions \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\doxylink{classart_1_1_angle}{Angle} -\/ the constructed \doxylink{classart_1_1_angle}{Angle} 
+\end{DoxyReturn}
 
 
 Definition at line \mbox{\hyperlink{_units_8cpp_source_l00134}{134}} of file \mbox{\hyperlink{_units_8cpp_source}{Units.\+cpp}}.
@@ -237,7 +273,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Tiles.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Tiles \\
+{\em tiles} & the length in Tiles \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}

@@ -109,6 +109,7 @@ $(function(){initNavTree('namespaceart.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classart_1_1_angle.html">Angle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Utility Unit class for Angles.  <a href="classart_1_1_angle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classart_1_1_length.html">Length</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A Utility Unit class for <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a>.  <a href="classart_1_1_length.html#details">More...</a><br /></td></tr>
@@ -156,10 +157,13 @@ Functions</h2></td></tr>
 <tr class="memdesc:a78106cc452c1323606b6fdc01692e578"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Tiles.  <br /></td></tr>
 <tr class="separator:a78106cc452c1323606b6fdc01692e578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42c86b89b6e3692e41667425d3342447" id="r_a42c86b89b6e3692e41667425d3342447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classart_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c86b89b6e3692e41667425d3342447">Degrees</a> (double degrees)</td></tr>
+<tr class="memdesc:a42c86b89b6e3692e41667425d3342447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> from Degrees.  <br /></td></tr>
 <tr class="separator:a42c86b89b6e3692e41667425d3342447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa425ee0581ad54a4d69bb1fde51c1fa7" id="r_aa425ee0581ad54a4d69bb1fde51c1fa7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classart_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa425ee0581ad54a4d69bb1fde51c1fa7">Radians</a> (double radians)</td></tr>
+<tr class="memdesc:aa425ee0581ad54a4d69bb1fde51c1fa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> from Radians.  <br /></td></tr>
 <tr class="separator:aa425ee0581ad54a4d69bb1fde51c1fa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa7e25fc40b617fb77028ca9ce81b0da" id="r_afa7e25fc40b617fb77028ca9ce81b0da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classart_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa7e25fc40b617fb77028ca9ce81b0da">Revolutions</a> (double revolutions)</td></tr>
+<tr class="memdesc:afa7e25fc40b617fb77028ca9ce81b0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> from Revolutions.  <br /></td></tr>
 <tr class="separator:afa7e25fc40b617fb77028ca9ce81b0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -201,7 +205,7 @@ Functions</h2></td></tr>
 <p>Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Centimeters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixels</td><td>the length in Centimeters </td></tr>
+    <tr><td class="paramname">centimeters</td><td>the length in Centimeters </td></tr>
   </table>
   </dd>
 </dl>
@@ -226,6 +230,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructs an <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> from Degrees. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">degrees</td><td>the angle in Degrees </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> - the constructed <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="_units_8cpp_source.html#l00120">120</a> of file <a class="el" href="_units_8cpp_source.html">Units.cpp</a>.</p>
 
 </div>
@@ -248,7 +261,7 @@ Functions</h2></td></tr>
 <p>Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Feet. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixels</td><td>the length in Feet </td></tr>
+    <tr><td class="paramname">feet</td><td>the length in Feet </td></tr>
   </table>
   </dd>
 </dl>
@@ -276,7 +289,7 @@ Functions</h2></td></tr>
 <p>Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Inches. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixels</td><td>the length in Inches </td></tr>
+    <tr><td class="paramname">inches</td><td>the length in Inches </td></tr>
   </table>
   </dd>
 </dl>
@@ -304,7 +317,7 @@ Functions</h2></td></tr>
 <p>Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Meters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixels</td><td>the length in Meters </td></tr>
+    <tr><td class="paramname">meters</td><td>the length in Meters </td></tr>
   </table>
   </dd>
 </dl>
@@ -332,7 +345,7 @@ Functions</h2></td></tr>
 <p>Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Millimeters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixels</td><td>the length in Millimeters </td></tr>
+    <tr><td class="paramname">millimeters</td><td>the length in Millimeters </td></tr>
   </table>
   </dd>
 </dl>
@@ -385,6 +398,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructs an <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> from Radians. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">radians</td><td>the angle in Radians </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> - the constructed <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> </dd></dl>
+
 <p class="definition">Definition at line <a class="el" href="_units_8cpp_source.html#l00127">127</a> of file <a class="el" href="_units_8cpp_source.html">Units.cpp</a>.</p>
 
 </div>
@@ -403,6 +425,15 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructs an <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> from Revolutions. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">revolutions</td><td>the angle in Revolutions </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> - the constructed <a class="el" href="classart_1_1_angle.html" title="A Utility Unit class for Angles.">Angle</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_units_8cpp_source.html#l00134">134</a> of file <a class="el" href="_units_8cpp_source.html">Units.cpp</a>.</p>
 
@@ -426,7 +457,7 @@ Functions</h2></td></tr>
 <p>Constructs a <a class="el" href="classart_1_1_length.html" title="A Utility Unit class for Length.">Length</a> from Tiles. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">pixels</td><td>the length in Tiles </td></tr>
+    <tr><td class="paramname">tiles</td><td>the length in Tiles </td></tr>
   </table>
   </dd>
 </dl>

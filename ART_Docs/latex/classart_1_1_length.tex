@@ -210,7 +210,7 @@ double -\/ the \doxylink{classart_1_1_length}{Length} as a default value(\+Pixel
 \end{DoxyReturn}
 This operator overload allows \doxylink{classart_1_1_length}{Length} to be treated as a plain old number. I can be typecasted to a double explicitly or just used in an expression. The value returned is technically in Pixels, but when adding different lengths together or multiplying by a scale, this doesn\textquotesingle{}t matter as long as the result is stored using \doxylink{classart_1_1_length_a548607af857a9ffec4ade9c3009d3467}{Length(double f)} or \doxylink{classart_1_1_length}{Length} \doxylink{classart_1_1_length_acb5155ebca5e39cb8448f5e038ef31f0}{operator=(double const \&f)}, as oppsosed to a Unit-\/specifying constructing function (Inches, Tiles, Meters etc.). 
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ *\ 5\ +\ \mbox{\hyperlink{namespaceart_ad013f32988d5d66dad5a975183e61180}{art::Feet}}(2);\ \textcolor{comment}{//stores\ a\ length\ of\ 49\ (25+24)\ inches}}
+\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ length\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ *\ 5\ +\ \mbox{\hyperlink{namespaceart_ad013f32988d5d66dad5a975183e61180}{art::Feet}}(2);\ \textcolor{comment}{//stores\ a\ length\ of\ 49\ (25+24)\ inches}}
 
 \end{DoxyCode}
 
@@ -241,11 +241,11 @@ This overloaded assignment operator allows the result of an operation using a \d
 
 Keep in mind this works best when the value on the right side is a \doxylink{classart_1_1_length}{Length}. Modifying the \doxylink{classart_1_1_length}{Length} with operators is okay, but keep in mind how those operations distribute. 
 \begin{DoxyCode}{0}
-\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ +\ 5;\ \textcolor{comment}{//stores\ a\ length\ of\ 6\ inches(don't\ do\ this)}}
-\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ +\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5);\ \textcolor{comment}{//stores\ a\ length\ of\ 10\ inches(do\ this\ instead)}}
-\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5\ +\ 5);\ \textcolor{comment}{//stores\ a\ length\ of\ 10\ inches(this\ is\ best)}}
+\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ length1\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ +\ 5;\ \textcolor{comment}{//stores\ a\ length\ of\ 6\ inches(don't\ do\ this)}}
+\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ length2\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ +\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5);\ \textcolor{comment}{//stores\ a\ length\ of\ 10\ inches(do\ this\ instead)}}
+\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ length3\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5\ +\ 5);\ \textcolor{comment}{//stores\ a\ length\ of\ 10\ inches(this\ is\ best)}}
 \DoxyCodeLine{}
-\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ *\ 5;\ \textcolor{comment}{//stores\ a\ length\ of\ 25\ inches}}
+\DoxyCodeLine{\mbox{\hyperlink{classart_1_1_length}{art::Length}}\ length4\ =\ \mbox{\hyperlink{namespaceart_a5e390585e386f978f1f6b75850e1a89a}{art::Inches}}(5)\ *\ 5;\ \textcolor{comment}{//stores\ a\ length\ of\ 25\ inches}}
 
 \end{DoxyCode}
 
@@ -303,7 +303,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Centimeters.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Centimeters \\
+{\em centimeters} & the length in Centimeters \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -325,7 +325,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Feet.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Feet \\
+{\em feet} & the length in Feet \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -347,7 +347,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Inches.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Inches \\
+{\em inches} & the length in Inches \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -369,7 +369,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Meters.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Meters \\
+{\em meters} & the length in Meters \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -391,7 +391,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Millimeters.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Millimeters \\
+{\em millimeters} & the length in Millimeters \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
@@ -435,7 +435,7 @@ Constructs a \doxylink{classart_1_1_length}{Length} from Tiles.
 
 
 \begin{DoxyParams}{Parameters}
-{\em pixels} & the length in Tiles \\
+{\em tiles} & the length in Tiles \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
