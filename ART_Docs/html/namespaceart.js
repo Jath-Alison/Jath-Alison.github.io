@@ -5,6 +5,7 @@ var namespaceart =
     [ "PID", "classart_1_1_p_i_d.html", "classart_1_1_p_i_d" ],
     [ "SimpleMotor", "classart_1_1_simple_motor.html", "classart_1_1_simple_motor" ],
     [ "SimpleMotorGroup", "classart_1_1_simple_motor_group.html", "classart_1_1_simple_motor_group" ],
+    [ "TankDrive", "classart_1_1_tank_drive.html", "classart_1_1_tank_drive" ],
     [ "Vec2", "structart_1_1_vec2.html", "structart_1_1_vec2" ],
     [ "TimePoint", "namespaceart.html#a17589c624f1bc91262d1cbc096707b81", null ],
     [ "Centimeters", "namespaceart.html#a49a88b5c3aeda2e140d7e82179f5c864", null ],
