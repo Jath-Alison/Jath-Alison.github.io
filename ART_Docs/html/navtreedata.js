@@ -61,7 +61,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_a_r_t_8h.html",
-"classart_1_1_tank_drive.html#a68bf8d71bbc7ca4aa9fe351f7f325380"
+"main_8cpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
