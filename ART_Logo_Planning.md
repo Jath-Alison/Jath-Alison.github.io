@@ -31,5 +31,5 @@
 |||
 |<img src="https://static.vecteezy.com/system/resources/previews/007/619/690/non_2x/house-painting-logo-design-template-free-vector.jpg" alt="drawing" width="200"/>|- Better swoosh, and okay shape<br>- Of course doesnt need house or Text, maybe replace with something else|
 |||
-|<img src="https://www.creativefabrica.com/wp-content/uploads/2018/10/Painting-logo-by-DEEMKA-STUDIO-1.jpg" alt="drawing" width="200"/>|- Very clean and appealing shape<br>- Nice color gradient<br>- could be more interesting, kinda empty without text|
+|<img src="ArcLogo.png" alt="drawing" width="200"/>|- Very clean and appealing shape<br>- Nice color gradient<br>- could be more interesting, kinda empty without text|
 
